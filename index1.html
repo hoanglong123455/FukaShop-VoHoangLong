@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký - Fuka Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo-container">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png" alt="Logo ShopOnline" class="logo-img">
+                <h1 class="logo-title">Fuka Shop</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Giỏ hàng</a></li>
+                    <li><a href="registration.html" class="active">Đăng ký</a></li>
+                    <li><a href="index2.html" class="active">Đăng nhập</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="registration">
+        <div class="container">
+            <h2 class="registration-title">Đăng ký tài khoản</h2>
+            <form action="#" method="post" class="registration-form">
+                <div class="form-group">
+                    <label for="username">Tên người dùng:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Địa chỉ email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mật khẩu:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Xác nhận mật khẩu:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit" class="btn submit-btn">Đăng ký</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>Bản quyền © 2024 Shop Online. Mọi quyền được bảo lưu.</p>
+        </div>
+    </footer>
+    <script src="index.js">
+    </script>
+</body>
+</html>

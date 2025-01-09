@@ -1,0 +1,207 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Định dạng chung */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #2cd4be;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav ul li a:hover {
+    background-color: #cb53f3;
+}
+
+/* Main */
+.main {
+    padding: 20px 0;
+}
+
+.section-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-price {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #e7324a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.video-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+video {
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+/* Phần Giới Thiệu */
+.about {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.about-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #319aba;
+}
+
+.about-description {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+/* Logo và Tiêu đề */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Khoảng cách giữa logo và tiêu đề */
+}
+
+.logo-img {
+    width: 50px; /* Kích thước logo */
+    height: 50px;
+    object-fit: contain; /* Đảm bảo logo không bị méo */
+}
+
+.logo-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+.about-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about-btn:hover {
+    background-color: #0056b3;
+}
+.video-section-background {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    bottom: 30px;
+}
+
+.content-overlay {
+    position: relative;
+    z-index: 1;
+   
+}
+
