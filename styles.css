@@ -86,13 +86,13 @@ body {
 }
 
 .product-price {
-    color: #e74c3c;
+    color: #4DA1A9;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
 .btn {
-    background-color: #e7324a;
+    background-color: #7AB2D3;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -103,7 +103,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #2E5077;
 }
 
 /* Footer */
@@ -176,7 +176,7 @@ video {
 }
 
 .about-btn:hover {
-    background-color: #0056b3;
+    background-color: #B9E5E8;
 }
 .video-section-background {
     position: relative;

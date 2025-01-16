@@ -7,13 +7,14 @@
         const password = document.getElementById('password').value;
 
         // Lấy thông tin người dùng từ Local Storage
-        const user = JSON.parse(localStorage.getItem(email));
+        const user = JSON.parse(localStorage.getItem("user"));
 
-        if (user && user.password === password) {
-            alert('ログイン成功しました！');
+        if (user.email === email && user.password === password) {
+            alert('Đăng nhập thành công!');
             // Chuyển hướng đến trang chính hoặc dashboard
+            localStorage.setItem("userCheck", JSON.stringify(user.username));
             window.location.href = "index.html";
         } else {
-            alert('メールアドレスまたはパスワードが正しくありません。');
+            alert('Địa chỉ email hoặc mật khẩu không đúng.');
         }
     });
