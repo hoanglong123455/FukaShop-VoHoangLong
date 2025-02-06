@@ -30,28 +30,8 @@
         <div class="container">
             <h2 class="section-title">Danh sách sản phẩm</h2>
             <div class="product-grid">
-                <!-- 25 sản phẩm -->
-                <div class="product">
-                    <img src="https://5275060314768347-1722222172124-2466155.cdn.site.joinf.com/5275060314768347/PF6BZ6FdDh.jpg?imageMogr2/format/webp/thumbnail/!10p/thumbnail/520x520/pad/1/color/I0ZGRkZGRg==/sharpen/100/format/webp/ignore-error/1
-                    " alt="Sản phẩm 1">
-                    <h3>Ốp lưng</h3>
-                    <p class="price">300,000 VND</p>
-                    <button class="btn">Thêm vào giỏ</button>
-                </div>
-                <!-- Sao chép thêm 24 lần cho các sản phẩm khác -->
-                <!-- Thay thế hình ảnh và thông tin nếu cần -->
-                <!-- Lặp lại các sản phẩm -->
-                <!-- Bắt đầu từ sản phẩm 2 -->
-                <div class="product">
-                    <img src="https://salt.tikicdn.com/cache/w1200/ts/product/65/3d/f7/a1ef28544ed76d91ecd1e4ee1826310d.jpg" alt="Giày 
-                    ">
-                    <h3>Giày thể thao</h3>
-                    <p class="price">350,000 VND</p>
-                    <button class="btn">Thêm vào giỏ</button>
-                </div>
-                <!-- Tiếp tục sản phẩm -->
-                <!-- Tổng cộng đủ 25 sản phẩm -->
-                <!-- Đoạn này tiếp tục copy-paste -->
+               
+                
             </div>
         </div>
     </section>
@@ -76,8 +56,8 @@
                 productElement.innerHTML = `
                     <img src="${product.Img}" alt="${product.NameItem}">
                     <h3>${product.NameItem}</h3>
-                    <p class="price">${product.Price} VND</p>
-                    <button class="btn">Thêm vào giỏ</button>
+                    <p class="price">${product.Price} $</p>
+                     <a href="./detail.html?id=${product.id}" class="btn btn-primary">Chi tiết sản phẩm</a>
                 `;
                 productGrid.appendChild(productElement);
             });
